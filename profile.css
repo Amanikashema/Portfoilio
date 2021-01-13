@@ -72,6 +72,18 @@ html,body{
     display:flex;
   }
 
+  .home-page{
+    margin-left: -258px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  #section{
+    top: 200px;
+    position: relative;
+    top: 143px;
+  }
+
 }
 
 .navbar li a{
