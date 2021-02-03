@@ -71,11 +71,12 @@ li{
 }
 
 .logo-section{
-  top: 0px;
+  top: 10px;
   margin-left: 10px;
   z-index: 999;
   position: sticky;
   width: 50px;
+  left: 15px;
 }
 
 .logo{
@@ -163,7 +164,7 @@ ul li a:hover{
 .skills{
   background-color: #d9dfdf;
   position: relative;
-  height: 500px;
+  height: 507px;
   top: -331px;
 }
 
@@ -183,6 +184,7 @@ ul li a:hover{
   padding-top: 46px;
   width: 44%;
   text-align: center;
+  margin-left: 184px;
 }
 
 .second_box{
@@ -191,6 +193,7 @@ ul li a:hover{
   padding-top: 50px;
   width: 44%;
   text-align: center;
+  margin-left: 184px;
 }
 
 .icons{
@@ -275,17 +278,18 @@ ul li a:hover{
   position: relative;
   margin-top: 0px;
   flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 94px;
+  justify-content: space-around;
+  padding-top: 89px;
+  padding-left: 63px;
 }
 
 .projecto1{
   display: flex;
   position: relative;
   margin-top: 0px;
-  flex-direction: row;
-  justify-content: space-evenly;
-  bottom: -90px;
+  justify-content: space-around;
+  padding-top: 89px;
+  padding-left: 63px;
 }
 
 .text2{
@@ -300,19 +304,21 @@ ul li a:hover{
   background: linear-gradient(to right, #274046, #E6DADA);
   width: 100%;
   height: 600px;
-  margin-top: 65%;
+  margin-top: 68%;
 }
 
 .contact-sec h1{
+  color: #274046;
   position: relative;
-  left: 30%;
-  top:24%;
-  color: #111c1f;
+  left: 50px;
+  top: 40px;
+  text-align: center;
+  font-size: 40px;
 }
 
 .form{
   position: relative;
-  left: 45%;
+  left: 40%;
   top: 15%;
 }
 
@@ -367,6 +373,35 @@ textarea{
   background: #111c1f;
 }
 
+.cont{
+  margin-top: -102px;
+  position: relative;
+  bottom: 280px;
+  left: 13%;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.cont1{
+  margin-bottom: 30px;
+}
+
+.cont2{
+  margin-bottom: 30px;
+}
+
+.cont3{
+  margin-bottom: 30px;
+}
+
+.cont4{
+  position: relative;
+  bottom: 57px;
+  left: 50px;
+}
+
+
 /***Testimonial section***/
 .test{
   background:  #d9dfdf;
@@ -387,26 +422,33 @@ textarea{
 }
 
 .profile{
-  width: 350px;
+  width: 285px;
   height: 350px;
   border-radius: 40px;
 }
 
 .person{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 91px;
+  width: 80%;
+  margin-left: 203px;
 }
 
 .laeeqah{
   width: 19%;
   text-align: justify;
+  color:#0f1e1e;
+}
+
+.cp{
+  color: #0b293c;
 }
 
 /**Footer**/
 .footer{
   background: #d9dfdf;
-  margin-top: -16px;
+  margin-top: -163px;
   height: 200px;
 }
 
