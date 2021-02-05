@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="profile.css">
-    <script src="myscript.js"></script>
+    
     <title>Amani Kashema | Full-Stack Developer</title>
 </head>
 <body>
@@ -17,17 +17,17 @@
     
    
     <!---Navigational Bar---->
-    <a href="#" class="toggle-button" >
+    <a href="#" class="toggle-button"  onclick="myFunction()">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
     </a>
-    <div class="navbar">
+    <div class="navbar" id="myTopnav">
         <ul>
             <li><a href="#about">About.</a></li>
             <li><a href="#projects_sec">Projects.</a></li>
-            <li><a href="#contact">Contacts.</a></li>
             <li><a href="#testimonials">Testimonials.</a></li>
+            <li><a href="#contact">Contacts.</a></li>
         </ul>
     </div>
    
@@ -50,44 +50,66 @@
    <div id="about" class="about-sec">
        <div class="text1">
         <h1>About Me</h1>
-        <h2>I'm a passionate Full-stack Developer</h2><br>
+        <h2>Full-stack | Developer</h2><br>
         <p>I am a passionate, young, tech-minded individual with a keen eye for details. I have serious love for UI effects, animations and creating intuitive, dynamic user experiences on various web based application. I love solving problems and being creative. My personal belief is that one should never stop learning because that is where wisdom comes from. I have a passion for designing and developing web-based applications and will continue advancing in my career as a full-stack developer.
         When I'm not coding, tweeting or drinking cofee, you'll find me cooking, playing guitar or working out in the park..</p>
        </div>
       
        <img class="pic4" src="images/me.jpg" alt="Amani Kashema"> 
 
+       <div class="interest"> 
+        <h2>Interests</h2><script src="myscript.js"></script>
+        <ul class="a">
+            <li>Software Development</li>
+            <li>Electronics Engineering</li>
+            <li>Chess</li>
+        </ul>
+       </div>
+
+       <div class="education"> 
+        <h2>Education</h2>
+        <ul class="a">
+            <li>Oval North Secondary School</li>
+            <li>ND Industial Electronics Engineering,2016<br>CPUT</li>
+            <li>Lifechoices Coding Academy,2021<br>Software Develoment</li>
+        </ul>
+       </div>
+
+
+
+      
+   </div>   
     <!--------Skills Section------------------>
     <div class="skills">
         <h1>My Skills</h1>
         <div class="first_box">
             <div>
-                <img class="icons" src="images/html.png" alt="html">
+                <a href="https://www.w3schools.com/html/"><img class="icons" src="images/html.png" alt="html"></a>
                 <h2>HTML</h2>
             </div>
             <div>
-                <img class="icons" src="images/css.png" alt="css">
+                <a href="https://www.w3schools.com/css/default.asp"><img class="icons" src="images/css.png" alt="css"></a>
                 <h2>CSS</h2>
             </div>
             <div>
-                <img class="icons" src="images/js.png" alt="javascript">
+                <a rel="stylesheet" href="https://www.w3schools.com/js/default.asp"><img class="icons" src="images/js.png" alt="javascript"></a>
                 <h2>Javascript</h2>
             </div>
         </div>
         
         <div class="second_box">
             <div>
-                <img class="icons" src="images/python.png" alt="python">
+                <a href="https://www.w3schools.com/python/default.asp"><img class="icons" src="images/python.png" alt="python"></a>
                 <h2>Python</h2>
             </div>
             
             <div>
-                <img class="icons" src="images/mysql.png" alt="mysql">
+                <a href="https://www.w3schools.com/sql/default.asp"><img class="icons" src="images/mysql.png" alt="mysql"></a>
                 <h2>Mysql</h2>
             </div>
 
             <div>
-                <img class="icons" src="images/bootstrap.png" alt="bootsrap">
+                <a href="https://www.w3schools.com/bootstrap/default.asp"><img class="icons" src="images/bootstrap.png" alt="bootsrap"></a>
                 <h2>Bootsrap</h2>
             </div>
             
@@ -137,7 +159,7 @@
             <p class="text2">Lotto App <br> (python Project)</p>
         </div>
         <div class="project3"><a href="https://fashionswagger.netlify.app/"><img class="pic5" src="images/swag.jpg" alt="swagger fashion"></a>  
-            <p class="text2"> Swagger Fashion Website <br> (python Project)</p>
+            <p class="text20"> Swagger Fashion Website <br> (python Project)</p>
         </div>
         </div>
         <div class="projecto1">
@@ -148,7 +170,7 @@
                 <p class="text2">Music player App <br> (python Project)</p>
             </div>
             <div class="project6"><a href="https://github.com/Amanikashema/python-excercise-1/blob/master/Temperature_Converter.py"><img class="pic5" src="images/temp.jpg" alt="temperature conveter"></a>
-                <p class="text2">Temperature Converter App <br> (python Project)</p>
+                <p class="text21">Temperature Converter App <br> (python Project)</p>
             </div>
         </div>       
         </div>
@@ -216,6 +238,7 @@
             <div><a  href="https://github.com/Amanikashema"><img class="pic3" src="images/github.png" alt="Github"></a></div>
     </div>
     </div>
-
+    <!-- height: 2710px; -->
+    <script src="myscript.js"></script>
 </body>
 </html>
