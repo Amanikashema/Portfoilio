@@ -45,6 +45,7 @@ html,body{
   color: white;
   position: sticky;
   z-index: 999;
+  font-family: "europa", sans-serif;
 }
 
 li{
@@ -63,6 +64,7 @@ li{
   color: white;
   width: 610px;
   font-size: 20px;
+  font-family: "europa", sans-serif;
 }
 
 .section p{
@@ -168,7 +170,7 @@ ul li a:hover{
 
 .interest{
   position: relative;
-  bottom: 309px;
+  bottom: 315px;
   left: 370px;
   width: 300px;
 }
@@ -223,6 +225,7 @@ ul.a{
   top: 40px;
   text-align: center;
   font-size:40px;
+  font-family: "europa", sans-serif;
 
 }
 
@@ -233,6 +236,8 @@ ul.a{
   width: 44%;
   text-align: center;
   margin-left: 184px;
+  color: #274046;
+  font-family: "europa", sans-serif;
 }
 
 .second_box{
@@ -242,6 +247,8 @@ ul.a{
   width: 44%;
   text-align: center;
   margin-left: 184px;
+  color: #274046;
+  font-family: "europa", sans-serif;
 }
 
 .icons{
@@ -316,6 +323,7 @@ ul.a{
   top: 40px;
   text-align: center;
   font-size: 40px;
+  font-family: "europa", sans-serif;
 }
 
 .pic5{
@@ -347,6 +355,7 @@ ul.a{
   color: #111c1f;
   font-size: 17px;
   font-weight: 600;
+  font-family: "europa", sans-serif;
 }
 
 /**Contact Section**/
@@ -449,6 +458,8 @@ textarea{
   position: relative;
   bottom: 57px;
   left: 50px;
+  color: rgb(204, 197, 197);
+  font-size: 15px;
 }
 
 
@@ -469,6 +480,7 @@ textarea{
   top: 40px;
   text-align: center;
   font-size: 40px;
+  font-family: "europa", sans-serif;
 }
 
 .profile{
@@ -489,8 +501,8 @@ textarea{
 
 .laeeqah{
   width: 19%;
-  text-align: justify;
-  color:#0f1e1e;
+  text-align: center;
+  color: #274046;
 }
 
 .cp{
@@ -518,6 +530,8 @@ textarea{
   position: relative;
   left: 863px;
   top: 53px;
+  color: #0b293c;
+
 }
 
 /*****MEDIA QUARIE SECTION******/
