@@ -16,7 +16,8 @@ html,body{
   float: left;
   overflow: hidden;
   z-index: 999;
-  left: 35%;
+  left: 42%;
+  width: 58%;
 }
 
 .toggle-button{
@@ -48,10 +49,11 @@ html,body{
   font-family: "europa", sans-serif;
 }
 
+
 li{
   display: inline;
   font-size: 20px;
-  margin: 100px;
+  margin: 61px;
   z-index: 999;
   position: sticky;
 
@@ -211,7 +213,6 @@ ul.a{
 /* Skills section**/
 
 .skills{
-  background-color: #d9dfdf;
   position: relative;
   height: 500px;
   top: 75px;
@@ -338,7 +339,8 @@ ul.a{
   flex-direction: row;
   justify-content: space-around;
   padding-top: 89px;
-  padding-left: 63px;
+  padding-left: 88px;
+  width: 1797px;
 }
 
 .projecto1{
@@ -347,16 +349,27 @@ ul.a{
   margin-top: 0px;
   justify-content: space-around;
   padding-top: 89px;
-  padding-left: 63px;
+  padding-left: 88px;
+  width: 1811px;
 }
 
 .text2{
   text-align: center;
-  color: #111c1f;
-  font-size: 17px;
-  font-weight: 600;
+  color: rgb(54, 53, 53);
   font-family: "europa", sans-serif;
+  font-size: large;
 }
+
+
+.text20{
+  text-align: center;
+  color: rgb(54, 53, 53);
+  font-family: "europa", sans-serif;
+  font-size: large;
+  position: relative;
+  left: -29px;
+}
+
 
 /**Contact Section**/
 .contact-sec{
@@ -465,7 +478,6 @@ textarea{
 
 /***Testimonial section***/
 .test{
-  background:  #d9dfdf;
   position: relative;
   left:0%;
   top: 1300px;
@@ -511,7 +523,6 @@ textarea{
 
 /**Footer**/
 .footer{
-  background: #d9dfdf;
   margin-top: -163px;
   height: 200px;
 }
@@ -534,7 +545,134 @@ textarea{
 
 }
 
-/*****MEDIA QUARIE SECTION******/
+
+/*****MEDIA QUARIE SECTION FOR IPAD PHONE******/
+
+@media only screen and (max-width: 768px){
+  .navbar{
+    width: 158%;
+    left: 78px;
+  }
+
+  li{
+    margin: 19px;
+    line-height: 36px;
+  }
+
+  .section{
+    left: 22%;
+  }
+
+  .social-icons{
+    left: 32%;
+  }
+
+  .text1{
+    left: 60px;
+    top: 12%;
+    color: rgb(49, 47, 47);
+  }
+
+  .pic4{
+    height: 320px;
+    width: 320px;
+    left: 53%;
+  }
+
+  .about-sec{
+    height: 927px;
+  }
+
+  .interest{
+    bottom: 95px;
+    left: 64px;
+  }
+
+  .education{
+    bottom: 272px;
+    left: 348px;
+  }
+
+  ul.a{
+    color: rgb(49, 47, 47);
+  }
+
+  .first_box{
+    margin-left: 57px;
+    width: 53%;
+  }
+
+  .second_box{
+    margin-left: 57px;
+    width: 53%;
+  }
+
+  .skill_level{
+    left: 67%;
+  }
+
+  .projecto{
+    justify-content: space-between;
+    padding-left: 54px;
+    left: 12px;
+    width: 92%;
+  }
+
+  .projecto1{
+    justify-content: space-between;
+    padding-left: 53px;
+    left: -26px;
+    width: 100%;
+  }
+
+  .test{
+    height: 130%;
+  }
+
+  .contact-sec{
+    margin-top: 169%;
+    height: 770px;
+  }
+
+  .laeeqah{
+    width: 46%;
+  }
+
+  .person{
+    margin-left: 35px;
+    flex-wrap: wrap;
+    width: 93%;
+  }
+
+  .cont{
+    width: 50%;
+    left: 30%;
+    bottom: 120px;
+  }
+
+  .form{
+    left: 25%;
+    top: 6%;
+  }
+
+  .footer{
+    margin-top: -161px;
+    height: 146px;
+  }
+
+  .social{
+    left: 33%;
+    top: 35%;
+  }
+
+  .footer p{
+    left: 10px;
+    left: 296px;
+  }
+}
+
+
+/*****MEDIA QUARIE SECTION FOR GALAXY S5 PHONE******/
 
 
 @media only screen and (max-width: 360px){
@@ -545,6 +683,14 @@ textarea{
 
   .toggle-button{
     display: flex;
+  }
+
+  .cp{
+    text-align: left;
+  }
+
+  .laeeqah{
+    width: 30%;
   }
 
   .navbar{
@@ -585,7 +731,7 @@ textarea{
     color: white;
     width: 360px;
     font-size: 14px;
-    left: 10px;
+    left: 19px;
   }
 
   .social-icons {
@@ -619,8 +765,8 @@ textarea{
     background-color: #d9dfdf;
     position: relative;
     height: 1290px;
-    top: -121px;
-  }
+    top: -8px;
+    }
 
   .text1 {
     height: 460px;
@@ -645,6 +791,7 @@ textarea{
     position: relative;
     top: -25px;
     font-size: 15px;
+    text-align: left;
 }
 
   .pic4 {
@@ -713,8 +860,8 @@ textarea{
   position: relative;
   background-color: grey;
   height: 25px;
-  width: 100%;
-  left: 0px;
+  width: 90%;
+  left: 3vh;
   bottom: 6px;
 }
 .javascript {
@@ -744,36 +891,29 @@ textarea{
   bottom: -150px;
   position: relative;
   height: 1748px;
+  margin-bottom: -84px;
 }
 
 .projects h1 {
   color: #274046;
   position: relative;
-  left: 20px;
+  left: 12px;
   top: 10px;
   text-align: center;
   font-size: 40px;
 }
 
 .projecto {
-  display: flex;
-  position: relative;
-  margin-top: 0px;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 0px;
-  padding-left: 0px;
-  flex-wrap: wrap;
+  top: -13vh;
+  flex-direction: column;
+  left: 0px;
+  padding-left: 87px;
 }
 
-.project3{
-  position: relative;
-  left: 23px;
-}
 
 .text20 {
-  text-align: center;
-  color: #111c1f;
+  text-align: inherit;
+  color: rgb(54, 53, 53);
   font-size: 17px;
   font-weight: 600;
   position: relative;
@@ -781,19 +921,15 @@ textarea{
 }
 
 .projecto1 {
-  display: flex;
-  position: relative;
-  margin-top: 0px;
-  justify-content: space-around;
-  padding-top: 89px;
-  padding-left: 0px;
-  flex-wrap: wrap;
-  padding-top: 0px;
+  top: -23vh;
+  flex-direction: column;
+  left: 35px;
 }
 
-.project6{
-  position: relative;
-  left: 33px;
+.text2{
+  font-family: "europa", sans-serif;
+  font-size: large;
+  text-align: inherit;
 }
 
 .text21 {
@@ -810,8 +946,8 @@ textarea{
   position: relative;
   left: 0%;
   top: 1300px;
-  height: 2308px;
-  margin-top: -1196px;
+  height: 1981px;
+  margin-top: -1154px;
 }
 
 .contact-sec {
@@ -841,7 +977,7 @@ textarea{
   justify-content: space-around;
   margin-top: 40px;
   width: 1000px;
-  margin-left: 90px;
+  margin-left: 32px;
   flex-direction: column;
 }
 
@@ -871,6 +1007,14 @@ textarea{
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.cont4 {
+  position: relative;
+  bottom: 57px;
+  left: 50px;
+  color: rgb(26, 25, 25);
+  font-size: 15px;
 }
 
 .footer {
