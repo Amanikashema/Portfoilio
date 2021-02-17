@@ -6,6 +6,8 @@ html,body{
   overflow-x:hidden;
 }
 
+
+
 .back-img{
   width: 100%;
   height: 999px;
@@ -17,7 +19,7 @@ html,body{
   overflow: hidden;
   z-index: 999;
   left: 42%;
-  width: 58%;
+  width: 100%;
 }
 
 .toggle-button{
@@ -94,6 +96,7 @@ li{
   height: 1000px;
   margin-top: -76px;
   background-image: url(images/landscape.jpg);
+  width: 100%;
 }
 
 .pic1{
@@ -340,7 +343,7 @@ ul.a{
   justify-content: space-around;
   padding-top: 89px;
   padding-left: 88px;
-  width: 1797px;
+  width: 94%;
 }
 
 .projecto1{
@@ -350,7 +353,7 @@ ul.a{
   justify-content: space-around;
   padding-top: 89px;
   padding-left: 88px;
-  width: 1811px;
+  width: 95%;
 }
 
 .text2{
@@ -376,7 +379,8 @@ ul.a{
   background: linear-gradient(to right, #274046, #E6DADA);
   width: 100%;
   height: 600px;
-  margin-top: 68%;
+  position: relative;
+  top: 1264px;
 }
 
 .contact-sec h1{
@@ -446,13 +450,12 @@ textarea{
 }
 
 .cont{
-  margin-top: -102px;
   position: relative;
-  bottom: 280px;
-  left: 13%;
+  left: 14%;
   display: flex;
   flex-direction: column;
   width: 20%;
+  top: 910px;
 }
 
 .cont1{
@@ -481,8 +484,8 @@ textarea{
   position: relative;
   left:0%;
   top: 1300px;
-  height: 800px;
   margin-top: -1000px;
+  height: 725px;
 }
 
 .test h1{
@@ -507,8 +510,8 @@ textarea{
   display: flex;
   justify-content: space-around;
   margin-top: 91px;
-  width: 80%;
-  margin-left: 203px;
+  width: 74%;
+  margin-left: 227px;
 }
 
 .laeeqah{
@@ -519,12 +522,14 @@ textarea{
 
 .cp{
   color: #0b293c;
+  text-align: left;
 }
 
 /**Footer**/
 .footer{
-  margin-top: -163px;
-  height: 200px;
+  height: 130px;
+  position: relative;
+  top: 1003px;
 }
 
 .social{
@@ -532,18 +537,105 @@ textarea{
   position: relative;
   flex-direction: row;
   left: 43%;
-  top: 40%;
+  top: 28%;
   justify-content: space-evenly;
   width: 300px;
 }
 
 .footer p{
   position: relative;
-  left: 863px;
-  top: 53px;
+  left: 45.5%;
+  top: 20%;
   color: #0b293c;
 
 }
+
+/**MEDIA QUARIE SECTION FOR **/
+@media only screen and (max-width: 1846px){
+  .navbar{
+    left: 39%;
+  }
+  .test{
+    height: 725px;
+  }
+  .cont {
+    position: relative;
+    left: 9%;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    top: 899px;
+}
+}
+
+@media only screen and (max-width: 1788px){
+  .navbar{
+    left: 20%;
+  }
+
+
+}
+
+@media only screen and (max-width: 1560px){
+  .person{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: -66px;
+  }
+
+
+  .test{
+    height: 1275px;
+  }
+
+  .laeeqah {
+    width: 36%;
+    text-align: center;
+    color: #274046;
+}
+
+  .pic4 {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    left: 67%;
+    border-radius: 50%;
+    bottom: 249px;
+  }
+  }
+
+  @media only screen and (max-width: 1300px){
+    .navbar{
+      left: 6%;
+    }
+
+    .text1{
+      left: 205px;
+    }
+
+    .interest {
+      bottom: 256px;
+      left: 209px;
+    }
+
+    .education{
+      bottom: 382px;
+      left: 491px;
+    }
+
+    .pic4{
+      left: 61%;
+    }
+
+    .send{
+      left: 3%;
+    }
+
+  }
+
+
+
 
 
 /*****MEDIA QUARIE SECTION FOR IPAD PHONE******/
@@ -630,8 +722,8 @@ textarea{
   }
 
   .contact-sec{
-    margin-top: 169%;
     height: 770px;
+    top: 1183px;
   }
 
   .laeeqah{
@@ -639,7 +731,7 @@ textarea{
   }
 
   .person{
-    margin-left: 35px;
+    margin-left: 95px;
     flex-wrap: wrap;
     width: 93%;
   }
@@ -647,17 +739,17 @@ textarea{
   .cont{
     width: 50%;
     left: 30%;
-    bottom: 120px;
+    top: 966px;
   }
 
   .form{
-    left: 25%;
+    left: 19%;
     top: 6%;
   }
 
   .footer{
-    margin-top: -161px;
     height: 146px;
+    margin-top: -82px;
   }
 
   .social{
@@ -678,7 +770,7 @@ textarea{
 @media only screen and (max-width: 360px){
   .logo-section{
     position: absolute;
-
+    margin-left: -2px;
   }
 
   .toggle-button{
