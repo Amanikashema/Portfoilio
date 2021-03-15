@@ -8,7 +8,13 @@ body {
   scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD
 .back-img {
+=======
+
+
+.back-img{
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
   width: 100%;
   height: 999px;
 }
@@ -374,7 +380,10 @@ ul.a {
   height: 600px;
   position: relative;
   top: 1264px;
+<<<<<<< HEAD
   background: #737373;
+=======
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
 }
 
 .contact-sec h1 {
@@ -442,7 +451,11 @@ textarea {
   background: #111c1f;
 }
 
+<<<<<<< HEAD
 .cont {
+=======
+.cont{
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
   position: relative;
   left: 14%;
   display: flex;
@@ -478,7 +491,10 @@ textarea {
   top: 1300px;
   margin-top: -1000px;
   height: 725px;
+<<<<<<< HEAD
   background: #e5eaee;
+=======
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
 }
 
 .test h1 {
@@ -519,11 +535,18 @@ textarea {
 }
 
 /**Footer**/
+<<<<<<< HEAD
 .footer {
   height: 130px;
   position: relative;
   top: 1000px;
   background: #e5eaee;
+=======
+.footer{
+  height: 130px;
+  position: relative;
+  top: 1003px;
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
 }
 
 .social {
@@ -567,15 +590,51 @@ textarea {
   }
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 1560px) {
   .person {
+=======
+/**MEDIA QUARIE SECTION FOR **/
+@media only screen and (max-width: 1846px){
+  .navbar{
+    left: 39%;
+  }
+  .test{
+    height: 725px;
+  }
+  .cont {
+    position: relative;
+    left: 9%;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    top: 899px;
+}
+}
+
+@media only screen and (max-width: 1788px){
+  .navbar{
+    left: 20%;
+  }
+
+
+}
+
+@media only screen and (max-width: 1560px){
+  .person{
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
     display: flex;
     flex-wrap: wrap;
     position: relative;
     left: -66px;
   }
 
+<<<<<<< HEAD
   .test {
+=======
+
+  .test{
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
     height: 1275px;
   }
 
@@ -583,7 +642,11 @@ textarea {
     width: 36%;
     text-align: center;
     color: #274046;
+<<<<<<< HEAD
   }
+=======
+}
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
 
   .pic4 {
     position: relative;
@@ -593,6 +656,7 @@ textarea {
     border-radius: 50%;
     bottom: 249px;
   }
+<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 1300px) {
@@ -622,6 +686,42 @@ textarea {
     left: 3%;
   }
 }
+=======
+  }
+
+  @media only screen and (max-width: 1300px){
+    .navbar{
+      left: 6%;
+    }
+
+    .text1{
+      left: 205px;
+    }
+
+    .interest {
+      bottom: 256px;
+      left: 209px;
+    }
+
+    .education{
+      bottom: 382px;
+      left: 491px;
+    }
+
+    .pic4{
+      left: 61%;
+    }
+
+    .send{
+      left: 3%;
+    }
+
+  }
+
+
+
+
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
 
 /*****MEDIA QUARIE SECTION FOR IPAD PHONE******/
 
@@ -706,7 +806,11 @@ textarea {
     height: 130%;
   }
 
+<<<<<<< HEAD
   .contact-sec {
+=======
+  .contact-sec{
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
     height: 770px;
     top: 1183px;
   }
@@ -715,7 +819,11 @@ textarea {
     width: 46%;
   }
 
+<<<<<<< HEAD
   .person {
+=======
+  .person{
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
     margin-left: 95px;
     flex-wrap: wrap;
     width: 93%;
@@ -727,12 +835,20 @@ textarea {
     top: 966px;
   }
 
+<<<<<<< HEAD
   .form {
+=======
+  .form{
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
     left: 19%;
     top: 6%;
   }
 
+<<<<<<< HEAD
   .footer {
+=======
+  .footer{
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
     height: 146px;
     margin-top: -82px;
   }
@@ -1006,6 +1122,7 @@ textarea {
     text-align: inherit;
   }
 
+<<<<<<< HEAD
   .text21 {
     text-align: center;
     color: #111c1f;
@@ -1023,6 +1140,23 @@ textarea {
     height: 1855px;
     margin-top: -1154px;
   }
+=======
+.test {
+  background: #d9dfdf;
+  position: relative;
+  left: 0%;
+  top: 1300px;
+  height: 1855px;
+  margin-top: -1154px;
+}
+
+.contact-sec {
+  background: linear-gradient(to right, #274046, #E6DADA);
+  width: 100%;
+  height: 760px;
+  margin-top: 116px;
+}
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
 
   .contact-sec {
     background: linear-gradient(to right, #274046, #e6dada);
@@ -1040,11 +1174,22 @@ textarea {
     font-size: 40px;
   }
 
+<<<<<<< HEAD
   .profile {
     width: 192px;
     height: 250px;
     border-radius: 40px;
   }
+=======
+.person {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  width: 1000px;
+  margin-left: 99px;
+  flex-direction: column;
+}
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
 
   .person {
     display: flex;
@@ -1055,6 +1200,7 @@ textarea {
     flex-direction: column;
   }
 
+<<<<<<< HEAD
   .contact-sec h1 {
     color: #274046;
     position: relative;
@@ -1072,6 +1218,27 @@ textarea {
     flex-wrap: wrap;
     width: 0%;
   }
+=======
+.form {
+  position: relative;
+  left: 19%;
+  top: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 0%;
+}
+
+.cont {
+  margin-top: -102px;
+  position: relative;
+  bottom:  575px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  left: 17px;
+  top: 1046px;
+}
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
 
   .cont {
     margin-top: -102px;
@@ -1084,6 +1251,7 @@ textarea {
     top: 1046px;
   }
 
+<<<<<<< HEAD
   .cont4 {
     position: relative;
     bottom: 57px;
@@ -1091,6 +1259,13 @@ textarea {
     color: rgb(26, 25, 25);
     font-size: 15px;
   }
+=======
+.footer {
+  background: #d9dfdf;
+  margin-top: 35px;
+  height: 96px;
+}
+>>>>>>> d07e7de703e021fb6eea79987fdf790d37f110af
 
   .footer {
     background: #d9dfdf;
